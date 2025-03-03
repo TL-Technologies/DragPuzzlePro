@@ -5,7 +5,6 @@ public class startscene : MonoBehaviour
 {
     public void ButtonPlay()
     {
-        Ads.Instance.ShowAds();
         SceneManager.LoadScene("LevelSelection");
     }
 }
