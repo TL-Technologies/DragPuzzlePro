@@ -197,6 +197,12 @@ public class canvasmanager : MonoBehaviour
         }
 
     }
+
+    [ContextMenu("fldkjh")]
+    public void ss()
+    {
+        PlayerPrefs.SetInt("Coinscount", 50000);
+    }
     public void DoubleCoins()
     {
         coinEffect.coinsCount = pricelist[count]*2;

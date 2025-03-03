@@ -7,4 +7,10 @@ public class startscene : MonoBehaviour
     {
         SceneManager.LoadScene("LevelSelection");
     }
+
+    [ContextMenu("fkejgh")]
+    public void Clear()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 }
